@@ -26,10 +26,6 @@ public class CustomList<T> implements MyList<T> {
     private Element<T> root;
     private int size;
 
-    public CustomList(Element<T> element) {
-        this.root = element;
-        this.size = 0;
-    }
 
     public CustomList(MyList<T> otherList) {
         this.size = otherList.getSize();
